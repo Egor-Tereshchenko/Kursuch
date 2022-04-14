@@ -20,34 +20,24 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="37dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="168dp"
+        android:layout_width="52dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="156dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/pngegg" />
+        app:srcCompat="@drawable/pngegg_1_" />
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="41dp"
-        android:layout_height="44dp"
+        android:layout_width="59dp"
+        android:layout_height="58dp"
         android:layout_marginStart="56dp"
-        android:layout_marginTop="228dp"
+        android:layout_marginTop="224dp"
+        android:contentDescription="@string/DohodGo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="180dp"
-        android:text="Общая сумма"
-        android:textColor="#FFFFFF"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:srcCompat="@drawable/rub" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -55,9 +45,21 @@
         android:layout_height="42dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="300dp"
+        android:contentDescription="@string/RashodSumm"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/pngegg" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="180dp"
+        android:text="@string/textsum"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/doxod"
@@ -65,7 +67,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="240dp"
-        android:text="Доход"
+        android:text="@string/textDoxod"
         android:textColor="#FFFFFF"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
         app:layout_constraintTop_toTopOf="parent" />
@@ -74,10 +76,21 @@
         android:id="@+id/Rashod"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="316dp"
-        android:text="Расход"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="320dp"
+        android:text="@string/Rashod"
         android:textColor="#FFFFFF"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="72dp"
+        android:text="@string/SymmItog"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

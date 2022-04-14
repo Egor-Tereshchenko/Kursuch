@@ -3,4 +3,11 @@
     <string name="todo1">TODO</string>
     <string name="d122">Главная</string>
     <string name="d24">TODO</string>
+    <string name="home">TODO</string>
+    <string name="textsum">Общая сумма</string>
+    <string name="textDoxod">Доход</string>
+    <string name="SymmItog">TextView</string>
+    <string name="Rashod">Расход</string>
+    <string name="RashodSumm">TODO</string>
+    <string name="DohodGo">TODO</string>
 </resources>

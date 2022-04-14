@@ -17,6 +17,8 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
         setContentView(R.layout.activity_main2);
         ImageView gotomenu = (ImageView) findViewById(R.id.menugo);
         gotomenu.setOnClickListener(this);
+        ImageView gotoadd = (ImageView) findViewById(R.id.addDoxod);
+        gotoadd.setOnClickListener(this);
 
     }
 
@@ -27,6 +29,10 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
         switch (v.getId()) {
             case R.id.menugo:
                 intent = new Intent(MainActivity2.this, MainActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.addDoxod:
+                intent = new Intent (MainActivity2.this, MainActivity4.class);
                 startActivity(intent);
 
         }
